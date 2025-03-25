@@ -1,0 +1,85 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.section-1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section-2__box-1, .section-2__box-2, .section-2__box-3, .section-2__box-4 {
+    padding: 15px;
+    width: 220px;
+    height: 360px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fixing section-3 width issue */
+.section-3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;  /* Ensures full width */
+}
+
+/* Centering form */
+.section-3__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form table {
+    text-align: left;
+}
+
+.age, .name, .mail {
+    width: 300px;
+    height: 30px;
+}
+
+.section-3__formbutton {
+    padding: 10px 15px;
+    text-align: center;
+    background-color: orangered;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Prevents unwanted scrolling */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
